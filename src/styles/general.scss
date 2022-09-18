@@ -26,11 +26,17 @@
   src: url("../fonts/TTNorms-Bold.woff2") format('woff2');
 }
 
+
 .container {
   width: 1320px;
   margin-left: auto;
   margin-right: auto;
-  @media (max-width: 1200px) {
+  @include media-tablet {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include media-mobile {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -69,7 +75,6 @@ body {
   @include background-right-corner-red;
   border-radius: 0px 0px 12px 12px;
 }
-
 
 
 .link--white {
@@ -173,29 +178,11 @@ body {
   text-align: center;
 }
 
-.logo__text {
-  text-transform: uppercase;
-  font-size: 38px;
-  font-weight: 400;
-  color: rgba(70, 70, 110, 1);
-  line-height: 1.2;
-}
-
-.logo-text-color {
-  color: #323264;
-}
 
 .gray-blue-text-color {
   color: rgba(50, 50, 100, 1);
 }
 
-.slash-icon {
-  width: 21px;
-  height: 47px;
-  @media (max-width: 1200px) {
-    height: 25px;
-  }
-}
 
 
 

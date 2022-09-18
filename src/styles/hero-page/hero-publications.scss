@@ -2,6 +2,9 @@
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #F5F5FA;
+  @include media-mobile {
+    width: 95%;
+  }
 }
 
 .publications__top-link {
@@ -24,6 +27,12 @@
   background: #FFFFFF;
   border-radius: 8px;
   padding: 20px;
+  @include media-tablet {
+    width: 46%;
+  }
+  @include media-mobile {
+    width: 100%;
+  }
 }
 
 

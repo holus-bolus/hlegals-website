@@ -6,6 +6,16 @@
 .cases__container {
   display: grid;
   gap: 5px;
+  @include media-tablet {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+  @include media-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+  }
 }
 
 .cases__element-1 {

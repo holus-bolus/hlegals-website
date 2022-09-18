@@ -1,5 +1,8 @@
 .hero-wrapper {
   @include background-right-corner-red ;
+  @include media-mobile {
+    width: 100%;
+  }
 }
 
 
@@ -12,6 +15,14 @@
   background-image: url("../images/hero/Frame1.svg"), url("../images/hero/hero__bg__p-letter.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: left 400px top 10px, left 400px top 80px;
+  @include media-tablet {
+    padding-top: 80px;
+    padding-bottom: 150px;
+    background-position: left 80px top -10px, left 80px top 20px;
+  }
+  @include media-mobile {
+    background-position: left -150px top -10px, left -150px top 20px;
+  }
 }
 
 .hero__heading {

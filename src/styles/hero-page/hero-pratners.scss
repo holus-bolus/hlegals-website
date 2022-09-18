@@ -3,6 +3,11 @@
   padding-bottom: 20px;
 }
 
+.partners__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .partners__title {
   margin-bottom: 30px;
 }
@@ -11,8 +16,15 @@
   display: flex;
   width: 100%;
   flex-wrap: wrap;
+
 }
 
 .partners__picture {
   width: 330px;
+  @include media-tablet {
+    width: 40%;
+  }
+  @include media-mobile {
+    width: 48%;
+  }
 }

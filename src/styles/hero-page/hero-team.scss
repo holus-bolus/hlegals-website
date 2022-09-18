@@ -8,10 +8,17 @@
   gap: 40px;
   background-color: #F5F5FA;
   border-radius: 12px;
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .team__text-wrapper {
   margin-top: 40px;
+  @include media-mobile {
+    width: 90%;
+  }
 }
 
 .team__top-link {
@@ -19,6 +26,6 @@
 }
 
 
-.team__heading{
+.team__heading {
   margin-bottom: 20px;
 }

@@ -1,6 +1,9 @@
 .services {
   padding-top: 40px;
   padding-bottom: 80px;
+  @include media-mobile {
+    width: 95%;
+  }
 }
 
 .services__list {
@@ -13,6 +16,12 @@
 
 .services__item {
   width: 400px;
+  @include media-tablet {
+    width: 40%;
+  }
+  @include media-mobile {
+    width: 100%;
+  }
 }
 
 .services__text {

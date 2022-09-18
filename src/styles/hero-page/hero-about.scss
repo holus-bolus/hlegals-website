@@ -1,14 +1,33 @@
 .hero-about {
   padding-top: 100px;
   padding-bottom: 40px;
+  @include media-mobile {
+    width: 90%;
+  }
 }
 
 
 .hero-about__item {
   @include flex-center;
   gap: 80px;
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .hero-about__text-wrapper {
   width: 600px;
+  @include media-tablet {
+    width: 400px;
+  }
+  @include media-mobile {
+    width: 250px;
+  }
+}
+
+.hero-about__heading {
+  @include media-tablet {
+    width: 90%;
+  }
 }

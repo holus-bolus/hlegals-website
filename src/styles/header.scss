@@ -1,11 +1,29 @@
 .header {
   padding-top: 60px;
   padding-bottom: 120px;
+  @include media-mobile {
+    padding-bottom: 60px;
+  }
 }
 
 .header__container {
   display: flex;
   justify-content: space-between;
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.logo__image {
+  width: 100%;
+  @include media-tablet {
+    width: 90%;
+  }
+  @include media-mobile {
+    width: 40%;
+  }
 }
 
 .languages__wrapper {
@@ -27,6 +45,13 @@
   gap: 15px;
   align-items: flex-end;
   justify-content: flex-end;
+  @include media-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .header__link {
@@ -34,4 +59,7 @@
   font-weight: 600;
   line-height: 1.2;
   text-transform: uppercase;
+  @include media-mobile {
+    font-size: 14px;
+  }
 }
