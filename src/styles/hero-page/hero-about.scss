@@ -1,0 +1,14 @@
+.hero-about {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+
+.hero-about__item {
+  @include flex-center;
+  gap: 80px;
+}
+
+.hero-about__text-wrapper {
+  width: 600px;
+}
