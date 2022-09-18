@@ -1,2 +1,6 @@
-@import "reset";
-@import "general";
+@import "src/styles/reset.scss";
+@import "src/styles/mixins.scss";
+@import "src/styles/general.scss";
+@import "src/components/button.scss";
+@import "src/styles/header";
+@import "src/styles/hero-page/hero-page";

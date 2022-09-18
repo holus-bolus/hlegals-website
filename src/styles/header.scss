@@ -1,0 +1,37 @@
+.header {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.languages__wrapper {
+  @include flex-center;
+  gap: 20px;
+}
+
+.languages {
+  @include flex-center;
+  gap: 15px;
+}
+
+.header__navmenu-wrapper {
+  margin-top: 20px;
+}
+
+.header__list {
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.header__link {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
