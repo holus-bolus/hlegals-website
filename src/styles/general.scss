@@ -189,6 +189,17 @@ body {
   align-items: center;
 }
 
+.slash-icon {
+  @include media-tablet {
+    width: 20px;
+  }
+}
+
+.p-icon {
+  @include media-tablet {
+    width:30px;
+  }
+}
 
 
 
