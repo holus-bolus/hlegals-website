@@ -3,13 +3,14 @@
   padding-bottom: 20px;
 }
 
-.partners__container {
-  display: flex;
-  flex-wrap: wrap;
-}
+
+
 
 .partners__title {
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .partners__image {
