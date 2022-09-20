@@ -1,0 +1,11 @@
+.about {
+  @include media-tablet {
+    padding-bottom: 60px;
+  }
+}
+
+.about__logo {
+  @include media-mobile {
+    width: 20%;
+  }
+}

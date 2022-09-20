@@ -1,0 +1,30 @@
+.achievement {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  background: #F5F5FA;
+  border-radius: 12px 12px 0px 0px;
+  border-bottom: 4px solid #E6E6F0;
+  @include media-mobile {
+    width: 100%;
+  }
+}
+
+.achievement__heading {
+  margin-bottom: 30px;
+}
+
+.achievement__gallery-wrapper {
+  @include flex-center;
+  gap: 40px;
+  @include media-mobile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.achievement__image {
+  width: 300px;
+  @include media-tablet {
+    width: 80%;
+  }
+}
