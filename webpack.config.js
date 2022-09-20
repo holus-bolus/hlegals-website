@@ -33,6 +33,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: "contacts.html",
       template: "./src/contacts.html"
+    }),
+    new HtmlWebpackPlugin({
+      filename: "publications.html",
+      template: "./src/publications.html"
     })
   ],
   module: {
@@ -75,7 +79,7 @@ module.exports = {
     ]
   },
   devServer: {
-    port: 3001,
+    port: 3000,
     static: {
       directory: join(__dirname, 'src')
     }

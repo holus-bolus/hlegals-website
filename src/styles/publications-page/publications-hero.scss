@@ -1,0 +1,17 @@
+.publications {
+  background-color: #F5F5FA;
+  border-radius: 12px 12px 0px 0px;
+  padding-top: 120px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.publications__button-wrapper {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
