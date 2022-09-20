@@ -1,0 +1,73 @@
+.team-hero__heading-wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+
+.team-hero__list {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 60px;
+
+}
+
+.team-hero__item {
+  width: 400px;
+  @include media-tablet {
+    width: 46%;
+  }
+  @include media-mobile {
+    width: 100%;
+  }
+}
+
+.team-hero__image {
+  width: 100%;
+}
+
+
+.team-hero__text-wrapper {
+  @include flex-center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.team__header-container {
+  @include media-tablet {
+    display: flex;
+    gap: 150px;
+  }
+}
+
+
+.team__icon-wrapper {
+  @include media-tablet {
+    width: 10%;
+  }
+}
+
+.team__logo-wrapper {
+  width: 100%;
+}
+
+.team__logo {
+  @include media-tablet {
+    font-size: 19px;
+  }
+}
+
+.team__p-icon {
+  @include media-tablet {
+    width: 75px;
+  }
+}
+
+.team__slash-icon {
+  @include media-tablet {
+    width: 75px;
+  }
+}
